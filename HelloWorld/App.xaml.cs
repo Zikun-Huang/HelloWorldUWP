@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
 
 namespace HelloWorld
 {
@@ -40,6 +42,7 @@ namespace HelloWorld
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
+            AppCenter.Start("ade94635-0e86-4e1d-ac8c-671ff3f92f2a", typeof(Analytics));
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
