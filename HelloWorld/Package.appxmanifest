@@ -8,14 +8,14 @@
 
   <Identity
     Name="46d69961-2430-4d39-b039-bd41dd1d84b5"
-    Publisher="CN=Eric"
-    Version="1.0.0.0" />
+    Publisher="CN=Microsoft China, O=Microsoft Corporation, C=CN"
+    Version="1.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="46d69961-2430-4d39-b039-bd41dd1d84b5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>HelloWorld</DisplayName>
-    <PublisherDisplayName>Eric</PublisherDisplayName>
+    <DisplayName>HelloWorldUWP</DisplayName>
+    <PublisherDisplayName>HenryH</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -39,6 +39,11 @@
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/>
+          <uap:Rotation Preference="portrait"/>
+          <uap:Rotation Preference="landscapeFlipped"/>
+          <uap:Rotation Preference="portraitFlipped"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
