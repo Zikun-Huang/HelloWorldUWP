@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug .NET Native|ARM = Debug .NET Native|ARM
+		Debug .NET Native|ARM64 = Debug .NET Native|ARM64
+		Debug .NET Native|x64 = Debug .NET Native|x64
+		Debug .NET Native|x86 = Debug .NET Native|x86
 		Debug|ARM = Debug|ARM
 		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
@@ -17,6 +21,18 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|ARM.ActiveCfg = Debug .NET Native|ARM
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|ARM.Build.0 = Debug .NET Native|ARM
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|ARM.Deploy.0 = Debug .NET Native|ARM
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|ARM64.ActiveCfg = Debug .NET Native|ARM64
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|ARM64.Build.0 = Debug .NET Native|ARM64
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|ARM64.Deploy.0 = Debug .NET Native|ARM64
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|x64.ActiveCfg = Debug .NET Native|x64
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|x64.Build.0 = Debug .NET Native|x64
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|x64.Deploy.0 = Debug .NET Native|x64
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|x86.ActiveCfg = Debug .NET Native|x86
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|x86.Build.0 = Debug .NET Native|x86
+		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug .NET Native|x86.Deploy.0 = Debug .NET Native|x86
 		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug|ARM.ActiveCfg = Debug|ARM
 		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug|ARM.Build.0 = Debug|ARM
 		{08B87536-0283-42E3-890F-74C1FAA11FC9}.Debug|ARM.Deploy.0 = Debug|ARM
